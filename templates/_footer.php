@@ -1,0 +1,1 @@
+<p>Copyright Wild Code School © 2021</p>
