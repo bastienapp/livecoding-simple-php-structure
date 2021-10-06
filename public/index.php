@@ -11,6 +11,13 @@ switch ($urlPath) {
     case "/games":
         require_once('../templates/gamelist.php');
         break;
+    case "/contact-us":
+        if ($_SERVER['REQUEST_METHOD'] === "POST") {
+            require_once('./form-backup.php');
+        } else {
+            require_once('./contact-us.php');
+        }
+        break;
     default:
         header("HTTP/1.1 404 Not Found");
 }
