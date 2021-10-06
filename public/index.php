@@ -2,7 +2,6 @@
 
 // récupérer l'url qui m'a été envoyé
 $urlPath = $_SERVER['REQUEST_URI'];
-die($urlPath);
 
 // en fonction de l'url, inclure le bon fichier php à afficher
 switch ($urlPath) {
