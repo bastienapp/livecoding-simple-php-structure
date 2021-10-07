@@ -11,7 +11,7 @@
     <?php require_once('../templates/_nav.php'); ?>
 
     <main>
-        <h1>Welcome to Gaming 2000</h1>
+        <h1>Welcome to Gaming 2000 <?= $testEnv; ?></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, sint. Libero officia sapiente culpa, molestiae voluptas animi nulla, nostrum natus necessitatibus ad nobis, perspiciatis similique iusto sed suscipit quaerat quo.</p>
     </main>
 
