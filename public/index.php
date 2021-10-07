@@ -1,5 +1,10 @@
 <?php
 
+// includes env variables if exists
+include_once('../env.php');
+
+$testEnv = getenv('TEST_ENV');
+
 // récupérer l'url qui m'a été envoyé
 $urlPath = $_SERVER['REQUEST_URI'];
 
